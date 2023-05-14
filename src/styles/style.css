@@ -1,0 +1,83 @@
+.navbar-custom {
+  background-color: #333333;
+  border-color: #333333;
+  padding: 20px 0;
+}
+
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.navbar-custom .nav-link {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-right: 30px;
+  transition: color 0.3s;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffc107;
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+.navbar-custom .navbar-collapse {
+  justify-content: flex-end;
+}
+
+
+.form-demo .card {
+  min-width: 450px;
+}
+.form-demo .card form {
+  margin-top: 2rem;
+}
+.form-demo .card .field {
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+  .form-demo .card {
+      width: 80%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .form-demo .card {
+      width: 100%;
+      min-width: 0;
+  }
+}
+       
+
+
+
+.custom-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: darkblue;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse .nav-item .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  
+  
+
+}
+
